@@ -1,0 +1,39 @@
+"JS terms:"
+    //Declaration
+
+    //Invocation || Call
+
+    //Arguments/parameters
+        //have data types (number, string, boolean, object)
+
+    //Execution context
+
+    //Scope
+        var globalscope = "*this variable is set to the global scope of the file*"
+        function(){
+            "*anything in here is local scoped to this function*"
+        }
+    //Object/array/string literal
+
+    //Conditional statement
+
+    //Key/value pair
+
+    //Object attribute
+
+    //Data types
+
+    //Comparison operators
+
+    //Es syntax(let, const, arrow functions, etc...)
+
+    //Modulus
+
+//Higher Order function
+//Callback
+//Closure
+
+javascript is:
+    //single threaded and sychronous by nature (runs one line && one process at a time)
+    //Interpreted: runs from top to bottom
+    //Runs in an execution context (aka scope)

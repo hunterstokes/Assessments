@@ -40,10 +40,15 @@ console.log(bicycle.wheels.specs[2])
 // Output:"ahhloop"
 
 function AlphabetSoup(str) {
-
+	var newStr = str.split("")
+	newStr.sort();
+	var sorted = "";
+	for (i=0, i < newStr.length, i++){
+		sorted = sorted.concat(newStr[i])
+	}
     // your code goes here
 
-	return str;
+	return sorted;
 }
 
 // keep this function call here
@@ -55,5 +60,15 @@ AlphabetSoup(hooplah);
 var nums = [1, 5, 88, 2, 5, 42, 57, 101]
 
 var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
+
+function ArrayCombine(arr1, arr2){
+	var newArr = []
+
+	for (i=0, i < arr1.length, i++) {
+		newArr.push(arr1[i]+arr2[i])
+	}
+	return newArr
+}
+ArrayCombine(nums, nouns)
 
 // output of the first function should be: "1 ducks"

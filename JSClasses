@@ -1,0 +1,26 @@
+// ./racecar.html
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            class Engine{
+                constructor(){
+                    this.horsepower = 350
+                    this.oilLevel = 100
+                    this.rpm = 0
+                }
+            }
+
+      // calling `new Engine()' is just like sending the plans
+      // to the production floor to have it built
+            let v8 = new Engine(450, 80)
+
+      // now that we have an instance of our engine built,
+      // we can interact with it
+            console.log("horsepower:", v8.horsepower)
+            console.log("oil:", v8.oilLevel)
+            console.log("rpm:", v8.rpm)
+        </script>
+    </body>
+</html>

@@ -11,17 +11,17 @@ These are potential interview questions. Try your best to answer each question o
 
 // your answer
 
-#### 3. Explain local vs global scope in programming. Feel free to create a code example to support your answer. 
+#### 3. Explain local vs global scope in programming. Feel free to create a code example to support your answer.
 
   //Your Answer
-  
-  
+
+
   //Googled Answer
 
 
-#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts here (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises. 
+#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts here (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises.
 
-Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource. 
+Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource.
 
   //Your Answer
 
@@ -31,7 +31,9 @@ Was this extra practice helpful? Take note of any concepts you learned or felt y
 - git ________________
 - git _____________ -u origin master
 
-#### 6. List some differences between return and console.log in Javascript. When would you use one vs the other? 
+#### 6. List some differences between return and console.log in Javascript. When would you use one vs the other?
+
+// Using return will stop the function and "return" what you asked the function to do. When you console.log it prints whatever value you get and continues the rest of the function. 
 
 #### 7. Think back to the intro to Javascript presentation. We talked about Javascript being a "Dynamically Typed" language. What did this mean about the way we write Javascript?
 
